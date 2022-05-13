@@ -116,7 +116,7 @@ namespace CarStoreAppGUI
             //carHistoryBindingSource.ResetBindings(false);
 
             string sCurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            string history_file = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\CarStoreAppGUI\car_history.txt");
+            string history_file = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\CarStoreAppGUI-master\car_history.txt");
             string history_file_path = Path.GetFullPath(history_file);
 
             //string history_file_path = @"C:\Users\Mateusz\Desktop\PLIKI - PROGRAMY,PROGRAMOWANIE\Visual Studio\CarStoreAppGUI\car_history.txt";
@@ -129,7 +129,7 @@ namespace CarStoreAppGUI
         private void download_history_Click(object sender, EventArgs e)
         {
             string sCurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            string history_file = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\CarStoreAppGUI\car_history.txt");
+            string history_file = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\CarStoreAppGUI-master\car_history.txt");
             string history_file_path = Path.GetFullPath(history_file);
             //string history_file_path = @"C:\Users\Mateusz\Desktop\PLIKI - PROGRAMY,PROGRAMOWANIE\Visual Studio\CarStoreAppGUI\car_history.txt";
             try
@@ -196,7 +196,7 @@ namespace CarStoreAppGUI
         private void clear_history_file_Click(object sender, EventArgs e)
         {
             string sCurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            string history_file = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\CarStoreAppGUI\car_history.txt");
+            string history_file = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\CarStoreAppGUI-master\car_history.txt");
             string history_file_path = Path.GetFullPath(history_file);
             //string history_file_path = @"C:\Users\Mateusz\Desktop\PLIKI - PROGRAMY,PROGRAMOWANIE\Visual Studio\car_history.txt";
             StreamWriter plik = new StreamWriter(history_file_path, true);
