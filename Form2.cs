@@ -64,7 +64,7 @@ namespace CarStoreAppGUI
 
 
                 string sCurrentDirectory = AppDomain.CurrentDomain.BaseDirectory;
-                string order_file = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\CarStoreAppGUI\orders.txt");
+                string order_file = System.IO.Path.Combine(sCurrentDirectory, @"..\..\..\CarStoreAppGUI-master\orders.txt");
                 string order_file_path = Path.GetFullPath(order_file);
                 //string order_file_path = @"C:\Users\Mateusz\Desktop\PLIKI - PROGRAMY,PROGRAMOWANIE\Visual Studio\CarStoreAppGUI\orders.txt";
                 StreamWriter plik = new StreamWriter(order_file_path, true);
