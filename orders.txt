@@ -1,0 +1,6 @@
+;Mateusz;Durka;(Sobieskiego;Jelenia Gora;PL)
+15.01.2022;19:01:33;John;Motherfucker;(Anthony's;New York;USA)
+15.01.2022;19:08:34;Szynszylka;Puchata;(Szynkowa;Galaretkowo;RUS)
+15.01.2022;19:11:33;Mis;Shelby;(Fysiowa;Birningham;UK)
+09.05.2022;13:36:04;Mateusz;Durka;(Elsnera 8/3;Jelenia Gora;PL)
+13.05.2022;19:59:38;xx;yy;(gg;jg;PL)
